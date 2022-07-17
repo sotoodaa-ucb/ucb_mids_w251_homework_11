@@ -215,7 +215,6 @@ class DQN:
 
 
 if __name__=="__main__":
-    print("Starting...")
     rewards_list = []
 
     # Run 100 episodes to generate the initial training data

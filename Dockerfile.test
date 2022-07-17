@@ -11,7 +11,7 @@ WORKDIR /tmp/pybox2d
 RUN python3 setup.py build
 RUN python3 setup.py install
 RUN pip3 install scikit-video keras==2.4.1
-RUN pip3 install gym
+RUN pip3 install gym==0.20.0 pyglet
 
 #WORKDIR /tmp/videos
 #RUN mkdir /tmp/videos
