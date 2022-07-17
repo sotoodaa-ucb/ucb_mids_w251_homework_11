@@ -57,5 +57,6 @@ Total tests above 200:  86
 ```
 
 ## Videos
-Train: https://ucb-mids-251-homework-3.s3.amazonaws.com/episode400.mp4
-Test: https://ucb-mids-251-homework-3.s3.amazonaws.com/testing_run50.mp4
+Train: https://ucb-mids-251-homework-3.s3.amazonaws.com/episode400.mp4  
+Test: https://ucb-mids-251-homework-3.s3.amazonaws.com/testing_run50.mp4  
+Model: https://ucb-mids-251-homework-3.s3.amazonaws.com/mymodel.h5  
