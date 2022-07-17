@@ -19,7 +19,7 @@ Questions to answer:
 3) Describe how your changes improve or degrade the model? How close did you get to a test run with 100% of the scores above 200?
 - Adjusting the dense layer node counts seemed to have improved the model significantly.  The default parameters likely yielded too
 simple of a network that could not observe patterns from samples in the memory buffer.
-- The model, on average, attained a reward of 240, where 90% of the test runs were over 200.
+- The model, on average, attained a reward of 240, where 86 of the test runs were over 200.
 
 4) Based on what you observed, what conclusions can you draw about the different parameters and their values?
 - Adjusting certain parameters can make a break the model.  Adjusting epsilon can drastically change the outcome in training the model due to the classic
@@ -57,5 +57,5 @@ Total tests above 200:  86
 ```
 
 ## Videos
-Train: https://ucb-mids-251-homework-3.s3.amazonaws.com/episode400.mp4  
+Train: https://ucb-mids-251-homework-3.s3.amazonaws.com/episode400.mp4
 Test: https://ucb-mids-251-homework-3.s3.amazonaws.com/testing_run50.mp4
